@@ -1,0 +1,1 @@
+//Faça um programa que mostre o apenas o n-ésimo termo da série de Fibonacci. Esse programa deve receber como entrada um número inteiro n maior que 2 (considere que 0 e 1 são conhecidos, sendo eles os 2 primeiros números da série).
