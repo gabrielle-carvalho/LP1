@@ -6,12 +6,12 @@ int main()
 {
     int newnum, num;
     
-    printf("Insira um numero: %d ");
+    printf("Insira um numero: ");
     scanf("%d", &num);
     
     while(num!=0){
         newnum=num+newnum;
-        printf("Insira um numero: %d ");
+        printf("Insira um numero: ");
         scanf("%d", &num);
     }   printf("%d", newnum);
     return 0;
