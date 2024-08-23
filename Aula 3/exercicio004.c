@@ -1,16 +1,15 @@
-//3. Escreva um programa em C que leia um número inteiro e exiba todos os números 
-//ímpares de 1 até esse número.
+//Faça um algoritmo em C que leia um número inteiro e determine se ele é par ou ímpar.
+
 #include<stdio.h>
-int main(){
-    int num;
+int main() {
+	int num;
 
-  printf("Digite um numero: ");
-  scanf("%d", &num);
+	printf("Digite um numero: ");
+	scanf("%d", &num);
 
-for (int i = 1; i <= num; i++) {
-        if (num % i != 0) {
-            printf("%d ", i);
-        }
-}
-    
-}
+		if (num % 2 != 0) {
+			printf("%d é impar. ", num);
+		} else{
+		    printf("%d é par. ", num);
+		}
+	}
