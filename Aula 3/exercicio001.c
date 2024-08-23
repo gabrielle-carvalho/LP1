@@ -6,13 +6,9 @@ int main(){
 
   printf("Digite 0 ou 1: ");
   scanf("%d", &caso);
-
-  if(caso==0 || caso==1){
-  printf("fim");
-  }
-  else{
-  printf("Digite uma nova opção: ");
-  scanf("%d", &caso);  
-  }
-    
+    while(caso!=0 && caso!=1){
+    printf("Digite uma nova opção: ");
+    scanf("%d", &caso);  
+}
+ 
 }
