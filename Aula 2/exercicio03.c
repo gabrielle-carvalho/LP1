@@ -6,10 +6,10 @@ int main()
 {
     char nomes[][255] = {"jose", "joao", "jeremias", "jeanne", "jenivaldo"};
 
-    unsigned int ui = 0;
+    unsigned int ui;
 
     // Percorrendo em ordem inversa
-    for (ui = 4; ui >= 0; ui--)
+    for (ui = 4; ui > 0; ui--)
     {
         printf("Nome: %s\n", nomes[ui]);
         printf("ui: %d\n", ui);
