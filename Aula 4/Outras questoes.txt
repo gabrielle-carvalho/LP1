@@ -1,0 +1,22 @@
+# Exercícios
+
+1. Modifique no código abaixo o nome da função para "hello2()" tanto na forward-declaration quanto na utilização. Qual o erro obtido? O que ele significa? Tente explicar
+
+%%writefile main.cpp
+
+#include <stdio.h>
+
+void hello2(); // Nesse ponto
+
+int main() {
+    hello2(); // Nesse ponto
+    return 0;
+}
+
+# "libminhalib.so" é referido aperido como "minhalib" no "-l"
+!g++ -L. -Wl,-rpath=. -o main main.cpp -lminhalib
+!./main
+
+2. Pesquise na documentação do gcc ou g++ os comando para realizar um linkage de uma biblioteca de forma estática. Gera um exemplo e discuta as vantagens e desvantagens em relação ao linkage dinâmico
+
+3. Pesquise em livros ou fontes confiáveis em quais situações se deve utilizar linkage estático e dinâmico. Discuta com seus colegas de equipe.
