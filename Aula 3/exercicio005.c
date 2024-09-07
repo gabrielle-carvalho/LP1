@@ -9,7 +9,7 @@ int main() {
 
 	for (int i = 1; i <= num;) {
 	    fatorial=fatorial*i;
-			
-			i++;
-		} printf("%d é o fatorial. ", fatorial);
+	    i++;
+		} 
+	printf("%d é o fatorial. ", fatorial);
 }
