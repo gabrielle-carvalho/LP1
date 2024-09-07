@@ -9,7 +9,7 @@ int main()
     unsigned int ui;
 
     // Percorrendo em ordem inversa
-    for (ui = 4; ui < 5; ui--)
+    for (ui = 4; ui >= 0; ui--)
     {
         printf("Nome: %s\n", nomes[ui]);
         printf("ui: %d\n", ui);
