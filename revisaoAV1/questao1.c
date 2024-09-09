@@ -1,6 +1,6 @@
 #include<stdio.h>
-int f(int v, i, int arr[]){
-
+int f(int v, int tam){
+    int j, arr[j];
     while(v>0){
     arr[j]= v%10;
     v=v/10;
@@ -13,7 +13,7 @@ int f(int v, i, int arr[]){
 //fazer função pra interver o array dps
 
 int main(){
-    int v, i, tam,i, arr[];
+    int v, tam;
     printf("Digite o tamanho de digitos do numero ");
     scanf("%d", &tam);
     printf("Digite o numero ");
