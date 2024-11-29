@@ -1,6 +1,5 @@
 // Escreva uma função que tem um parâmetro inteiro com nome x de entrada. Aloque um vetor de inteiros com 5 vezes o tamanho. Inicialize o vetor com um valor diferente de zero.
 
-%%writefile teste.cpp
 // #include <cstdlib>
 #include <stdlib.h>
 #include<stdio.h>
